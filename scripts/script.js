@@ -17,7 +17,7 @@ function createDivs () {
 }
 
 function setOpacity() {
-    this.style.opacity = this.style.opacity == 0 ? 0 : this.style.opacity - 0.1;
+    this.style.opacity = Math.max(0,this.style.opacity - 0.1);
 }
 
 
