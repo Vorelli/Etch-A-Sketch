@@ -1,0 +1,9 @@
+div {
+    display: block;
+    float: left;
+}
+
+#mainDiv {
+    height:960px;
+    width:960px;
+}
